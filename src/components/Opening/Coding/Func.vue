@@ -1,0 +1,83 @@
+<template>
+  <section id="func">
+    <h2>Fonctions</h2>
+    <p>Voici comment déclarer une fonction en <strong>JavaScript</strong> :</p>
+    <div class="left">
+      <h3>ES5</h3>
+      <pre>
+        <code class="javascript" contenteditable>{{ getCodeLeft }}</code>
+      </pre>
+    </div>
+    <div class="fragment right">
+      <h3>ES6+</h3>
+      <pre>
+        <code class="javascript" contenteditable>{{ getCodeRight }}</code>
+      </pre>
+    </div>
+  </section>
+</template>
+
+<script>
+const CODE_LEFT = `
+  var numeric = 7;
+  var tab = [3, '5', 7];
+
+  /* Assignation */
+  var remove = function(array, value) {
+    var size = array.length;
+
+    for (var i = size - 1; i >= 0; i--) {
+      if (array[i] === value) {
+        var index = array.indexOf(value);
+        array.splice(index, 1);
+      }
+    }
+  };
+
+  remove(tab, numeric);
+
+  /* Déclaration */
+  function log(obj) {
+    console.log('Log : ' + obj);
+  };
+
+  log(tab); /* Log : [3, '5'] */
+  `;
+
+const CODE_RIGHT = `
+  const numeric = 7;
+  let tab = [3, '5', 7];
+
+  /* Assignation */
+  const remove = (array, value) => {
+    let size = array.length;
+
+    for (let i = size - 1; i >= 0; i--) {
+      if (array[i] === value) {
+        const index = array.indexOf(value);
+        array.splice(index, 1);
+      }
+    }
+  };
+
+  remove(tab, numeric);
+
+  /* Déclaration */
+  function log(obj) {
+    console.log(\`Log : \${obj}\`);
+  };
+
+  log(tab); /* Log : [3, '5'] */
+  `;
+
+export default {
+  computed: {
+    getCodeLeft() {
+      return CODE_LEFT;
+    },
+    getCodeRight() {
+      return CODE_RIGHT;
+    }
+  }
+};
+</script>
