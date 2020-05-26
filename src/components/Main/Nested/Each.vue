@@ -15,7 +15,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <ul>
       <li v-for="(item, idx) in myList" :key="idx">
@@ -40,7 +40,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

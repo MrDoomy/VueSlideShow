@@ -37,7 +37,7 @@
 </template>
 
 <script>
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   var foo = 1;
     
   function bar() {
@@ -51,7 +51,7 @@ const CODE_LEFT = `
   bar();
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   var foo = 1;
 
   function bar() {
@@ -70,10 +70,10 @@ const CODE_RIGHT = `
 export default {
   computed: {
     getCodeLeft() {
-      return CODE_LEFT;
+      return SNIPPET_LEFT;
     },
     getCodeRight() {
-      return CODE_RIGHT;
+      return SNIPPET_RIGHT;
     }
   }
 };

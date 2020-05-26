@@ -18,7 +18,7 @@
 </template>
 
 <script>
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   var numeric = 7;
   var tab = [3, '5', 7];
 
@@ -44,7 +44,7 @@ const CODE_LEFT = `
   log(tab); /* Log : [3, '5'] */
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   const numeric = 7;
   let tab = [3, '5', 7];
 
@@ -73,10 +73,10 @@ const CODE_RIGHT = `
 export default {
   computed: {
     getCodeLeft() {
-      return CODE_LEFT;
+      return SNIPPET_LEFT;
     },
     getCodeRight() {
-      return CODE_RIGHT;
+      return SNIPPET_RIGHT;
     }
   }
 };

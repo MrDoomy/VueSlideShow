@@ -13,7 +13,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   import Vue from 'vue';
   import HelloWorld from './path/to/HelloWorld.vue';
 
@@ -31,7 +31,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

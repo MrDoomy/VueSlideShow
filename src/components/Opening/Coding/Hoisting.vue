@@ -22,7 +22,7 @@
 </template>
 
 <script>
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   'use strict';
   console.log('i:', i);
 
@@ -36,7 +36,7 @@ const CODE_LEFT = `
   execute('Hey);
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   // Compile
   var i;
   function execute(message) {
@@ -53,10 +53,10 @@ const CODE_RIGHT = `
 export default {
   computed: {
     getCodeLeft() {
-      return CODE_LEFT;
+      return SNIPPET_LEFT;
     },
     getCodeRight() {
-      return CODE_RIGHT;
+      return SNIPPET_RIGHT;
     }
   }
 };

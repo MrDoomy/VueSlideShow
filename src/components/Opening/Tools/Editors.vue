@@ -20,7 +20,7 @@
       <div class="beautify-table-body">
         <table>
           <tbody>
-            <tr :class="['body', { alt: idx % 2 !== 0 }]" v-for="({ editor, pros, cons }, idx) in getRows" :key="idx">
+            <tr class="body" v-for="({ editor, pros, cons }, idx) in getRows" :key="idx">
               <td class="column1">
                 <strong>{{ editor }}</strong>
               </td>

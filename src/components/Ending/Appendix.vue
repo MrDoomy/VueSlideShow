@@ -15,7 +15,7 @@
       <div class="beautify-table-body">
         <table>
           <tbody>
-            <tr :class="['body', { 'alt': idx % 2 !== 0 }]" v-for="({ source, link }, idx) in getRows" :key="idx">
+            <tr class="body" v-for="({ source, link }, idx) in getRows" :key="idx">
               <td class="column1">{{ source }}</td>
               <td class="column2 fill">
                 <a :href="link" target="_blank" rel="noopener noreferrer">

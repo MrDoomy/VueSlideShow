@@ -9,7 +9,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <!-- ... -->
   </template>
@@ -33,7 +33,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

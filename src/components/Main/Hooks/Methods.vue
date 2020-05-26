@@ -9,7 +9,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <button @click="handleClick()">Say Hello</button>
   </template>
@@ -34,7 +34,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

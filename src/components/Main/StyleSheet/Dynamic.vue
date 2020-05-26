@@ -12,7 +12,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <p :style="{ textDecoration }">Hey ! What's Up !?</p>
     <p :style="getStyle">Nothin' Bro !</p>
@@ -39,7 +39,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

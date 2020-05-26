@@ -9,7 +9,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <p class="underline">Nothin' Bro !</p>
   </template>
@@ -26,7 +26,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

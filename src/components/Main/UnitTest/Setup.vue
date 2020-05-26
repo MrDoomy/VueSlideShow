@@ -17,21 +17,21 @@
 </template>
 
 <script>
-const CODE_TOP = `
+const SNIPPET_TOP = `
   npm install --save-dev @testing-library/vue @testing-library/jest-dom
   `;
 
-const CODE_BOTTOM = `
+const SNIPPET_BOTTOM = `
   import '@testing-library/jest-dom/extend-expect';
   `;
 
 export default {
   computed: {
     getCodeTop() {
-      return CODE_TOP;
+      return SNIPPET_TOP;
     },
     getCodeBottom() {
-      return CODE_BOTTOM;
+      return SNIPPET_BOTTOM;
     }
   }
 };

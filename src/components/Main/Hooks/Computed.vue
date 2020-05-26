@@ -9,7 +9,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <span>{{ fullName }}</span>
   </template>
@@ -35,7 +35,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

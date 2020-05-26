@@ -16,7 +16,7 @@
 </template>
 
 <script>
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   export const mixinCounter = {
     data() {
       return {
@@ -34,7 +34,7 @@ const CODE_LEFT = `
   };
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   <template>
     <div>
       <h1>Compteur</h1>
@@ -60,10 +60,10 @@ const CODE_RIGHT = `
 export default {
   computed: {
     getCodeLeft() {
-      return CODE_LEFT;
+      return SNIPPET_LEFT;
     },
     getCodeRight() {
-      return CODE_RIGHT;
+      return SNIPPET_RIGHT;
     }
   }
 };

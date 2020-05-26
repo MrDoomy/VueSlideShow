@@ -20,7 +20,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <div>
       <nav>
@@ -48,7 +48,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

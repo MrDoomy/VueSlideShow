@@ -5,7 +5,7 @@
         <span class="white">Outils</span>
       </h1>
     </section>
-    <Engine />
+    <Runtime />
     <Editors />
     <VersionManager />
     <DepManager />
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Engine from './Engine';
+import Runtime from './Runtime';
 import Editors from './Editors';
 import VersionManager from './VersionManager';
 import DepManager from './DepManager';
@@ -30,7 +30,7 @@ import Testing from './Testing';
 
 export default {
   components: {
-    Engine,
+    Runtime,
     Editors,
     VersionManager,
     DepManager,

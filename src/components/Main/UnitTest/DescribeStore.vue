@@ -9,7 +9,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   import { actions } from '../actions';
   import { getters } from '../getters';
   import { mutations } from '../mutations';
@@ -42,7 +42,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

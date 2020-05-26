@@ -14,7 +14,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   export const getters = {
     getTasks(state) {
       return state.tasks | [];
@@ -28,7 +28,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

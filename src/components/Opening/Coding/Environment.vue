@@ -22,7 +22,7 @@ import imgFirefox from '@/assets/img/firefox.png';
 import imgOpera from '@/assets/img/opera.png';
 import imgSafari from '@/assets/img/safari.png';
 
-const CODE = `
+const SNIPPET = `
   (function() {
     'use strict';
 
@@ -48,7 +48,7 @@ export default {
       return imgSafari;
     },
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

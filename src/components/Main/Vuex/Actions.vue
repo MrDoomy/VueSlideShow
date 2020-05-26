@@ -17,7 +17,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   // Constants
   export const CREATE_TASK = 'TASKS/CREATE_TASK';
   export const COMPLETE_TASK = 'TASKS/COMPLETE_TASK';
@@ -39,7 +39,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

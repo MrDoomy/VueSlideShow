@@ -17,7 +17,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   /* Constructeur */
   var Object = function(one, two) {
 
@@ -42,7 +42,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

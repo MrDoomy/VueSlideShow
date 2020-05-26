@@ -1,5 +1,7 @@
 # SlideShow
 
+> Version 1.1.0
+
 ## Explanation
 
 SlideShow Support For The **Vue** Framework Made With RevealJS (FR)
@@ -34,8 +36,8 @@ npm run serve
 Build & Serve:
 
 ```
-npm run build
-npx serve -s build
+npm run dist
+npx serve -s dist
 ```
 
 ## License

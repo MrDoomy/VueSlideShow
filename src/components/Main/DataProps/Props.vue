@@ -27,7 +27,7 @@
 </template>
 
 <script>
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   <template>
     <div>
       <h3>{{ label }}<h3>
@@ -46,7 +46,7 @@ const CODE_LEFT = `
   <\/script>
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   <template>
     <Child label="Compteur" :counter="counter" />
   </template>
@@ -71,10 +71,10 @@ const CODE_RIGHT = `
 export default {
   computed: {
     getCodeLeft() {
-      return CODE_LEFT;
+      return SNIPPET_LEFT;
     },
     getCodeRight() {
-      return CODE_RIGHT;
+      return SNIPPET_RIGHT;
     }
   }
 };

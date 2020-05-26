@@ -15,7 +15,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <template>
     <div>
       <span>{{ counter }}</span>
@@ -43,7 +43,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

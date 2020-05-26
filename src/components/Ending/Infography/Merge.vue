@@ -5,7 +5,7 @@
       <span class="light-green">Besoin</span> des employeurs Vs.
       <span class="light-blue">Connaissances</span> des développeurs
     </h3>
-    <canvas id="merge-chart" style="height: 60vh; width: 100vw;" />
+    <canvas id="merge-chart" style="display: block; height: 720px; width: 1920px;" />
   </section>
 </template>
 

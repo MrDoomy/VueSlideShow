@@ -42,10 +42,9 @@
 
 <script>
 // RevealJS
-import { initialize } from 'reveal.js/js/reveal';
-
-// HighLightJS
-import { initHighlightingOnLoad as initializeOnLoad } from 'highlight.js/lib';
+import Reveal from 'reveal.js';
+import HL from 'reveal.js/plugin/highlight/highlight';
+import MD from 'reveal.js/plugin/markdown/markdown';
 
 // Slides
 import {
@@ -161,7 +160,7 @@ export default {
     }
   },
   mounted() {
-    initialize({
+    Reveal.initialize({
       width: this.width,
       height: this.height,
       margin: this.margin,
@@ -169,10 +168,10 @@ export default {
       slideNumber: this.slideNumber,
       history: this.history,
       mouseWheel: this.mouseWheel,
-      transition: 'slide'
+      transition: 'slide',
+      fragmentInURL: false,
+      plugins: [HL, MD]
     });
-
-    initializeOnLoad();
   }
 };
 </script>

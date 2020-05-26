@@ -13,7 +13,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   import { CREATE_TASK, COMPLETE_TASK, CLEAR_TASK } from './actions';
 
   export const mutations = {
@@ -35,7 +35,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

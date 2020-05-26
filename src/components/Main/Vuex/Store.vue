@@ -12,7 +12,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   import Vue from 'vue';
   import { Store } from 'vuex';
   import { actions } from './actions';
@@ -36,7 +36,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

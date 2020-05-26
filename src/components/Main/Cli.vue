@@ -19,7 +19,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   npm i -g @vue/cli
   vue create my-project
   `;
@@ -27,7 +27,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

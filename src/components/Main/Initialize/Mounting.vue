@@ -19,7 +19,7 @@
 </template>
 
 <script>
-const CODE = `
+const SNIPPET = `
   <!DOCTYPE html>
   <html>
     <head></head>
@@ -34,7 +34,7 @@ const CODE = `
 export default {
   computed: {
     getCode() {
-      return CODE;
+      return SNIPPET;
     }
   }
 };

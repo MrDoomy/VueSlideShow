@@ -1,5 +1,5 @@
 <template>
-  <section id="engine">
+  <section id="runtime">
     <img :data-src="getImgNode" alt="NodeJS" />
     <img :data-src="getImgNpm" alt="NPM" />
     <p>
@@ -38,7 +38,7 @@ export default {
 
 <style lang="scss" scoped>
 section {
-  &#engine {
+  &#runtime {
     img {
       height: 160px;
     }

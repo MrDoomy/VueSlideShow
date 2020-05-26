@@ -22,7 +22,7 @@
 </template>
 
 <script>
-const CODE_LEFT = `
+const SNIPPET_LEFT = `
   Vue.component('greeting', {
     functional: true,
     props: ['userName'],
@@ -36,7 +36,7 @@ const CODE_LEFT = `
   });
   `;
 
-const CODE_RIGHT = `
+const SNIPPET_RIGHT = `
   export default {
     name: 'Greeting',
     functional: true,
@@ -54,10 +54,10 @@ const CODE_RIGHT = `
 export default {
   computed: {
     getCodeLeft() {
-      return CODE_LEFT;
+      return SNIPPET_LEFT;
     },
     getCodeRight() {
-      return CODE_RIGHT;
+      return SNIPPET_RIGHT;
     }
   }
 };
