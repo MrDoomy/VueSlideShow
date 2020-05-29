@@ -1,19 +1,19 @@
 <template>
   <section id="angular">
-    <img :data-src="getImgAngular" alt="Angular" />
+    <img :data-src="getImgAngular" alt="Angular">
     <h2>Angular</h2>
     <p>
       Développé depuis 2014 par <strong>Google</strong>
-      <br />
+      <br>
       Apparition du langage <strong>TypeScript</strong>
       <small>(By Microsoft)</small>
-      <br />
+      <br>
       Utilisation massive des décorateurs
-      <br />
+      <br>
       Courbe d'apprentissage abrupt
-      <br />
+      <br>
       Processus de développement plus rapide
-      <br />
+      <br>
       Fonctionnalités de test avancées
     </p>
   </section>

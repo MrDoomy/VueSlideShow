@@ -4,18 +4,18 @@
     <p>
       <strong>Vuex</strong> permet de mapper le
       <strong>store</strong> dans un composant
-      <br />
+      <br>
       Ce mapping est nécessaire pour pouvoir dispatcher des
       <em>actions</em>
     </p>
     <div class="left">
       <pre>
-        <code class="html" contenteditable>{{ getCodeLeft }}</code>
+        <code class="html" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <pre>
-        <code class="html" contenteditable>{{ getCodeRight }}</code>
+        <code class="html" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -83,10 +83,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

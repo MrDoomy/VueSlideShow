@@ -3,19 +3,19 @@
     <h2>Fonctionnement</h2>
     <p>
       Le code <strong>JavaScript</strong> mêle à la fois du code exécuté et du code déclaratif
-      <br />
+      <br>
       La pile d'exécution <small>(Call Stack)</small> compile le code puis l'exécute
-      <br />
+      <br>
       Ainsi, le code <strong>JavaScript</strong> est synchrone
     </p>
     <div class="left">
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeLeft }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeRight }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -52,10 +52,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

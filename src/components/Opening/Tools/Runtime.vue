@@ -1,20 +1,20 @@
 <template>
   <section id="runtime">
-    <img :data-src="getImgNode" alt="NodeJS" />
-    <img :data-src="getImgNpm" alt="NPM" />
+    <img :data-src="getImgNode" alt="NodeJS">
+    <img :data-src="getImgNpm" alt="NPM">
     <p>
       1<small>er</small> version en 2009
-      <br />
+      <br>
       Environnement <strong>JavaScript</strong>
-      <br />
+      <br>
       Basé sur le moteur <strong>Chrome V8</strong>
-      <br />
+      <br>
       Utilisé en tant que plateforme logicielle
-      <br />
+      <br>
       Contient nativement un serveur Web
-      <br />
+      <br>
       Dernière version <strong>LTS</strong> : 12.14.x
-      <br />
+      <br>
       Gestionnaire de paquets <small>(officiel)</small>
     </p>
   </section>

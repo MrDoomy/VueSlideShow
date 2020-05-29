@@ -3,7 +3,7 @@
     <h2>Tester Avec <strong>Testing Library</strong></h2>
     <p>Création d'une suite de tests unitaires <code>App.spec.js</code> :</p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -41,7 +41,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

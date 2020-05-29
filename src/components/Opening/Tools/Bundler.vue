@@ -1,20 +1,20 @@
 <template>
   <section id="bundler">
-    <img :data-src="getImgWebPack" alt="WebPack" />
+    <img :data-src="getImgWebPack" alt="WebPack">
     <h2>Bundler</h2>
     <p>
       Fonctionnement par modules
-      <br />
+      <br>
       Intéropérabilité des fichiers
-      <br />
+      <br>
       Appel
       <span class="grey strike">
         de fichiers
       </span>
       de modules
-      <br />
+      <br>
       Découpage par responsabilité
-      <br />
+      <br>
       Fini les casses têtes liés aux ressources
       <small>(<code>.js</code>, <code>.json</code>, <code>.jsx</code>)</small>
     </p>

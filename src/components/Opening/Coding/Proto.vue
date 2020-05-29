@@ -3,46 +3,76 @@
     <h2>Prototype</h2>
     <p>
       Manière de faire de l'héritage en <strong>Javascript</strong>
-      <br />
-      C'est l'équivalent d'une classe en Java
-      <br />
+      <br>
+      C'est l'équivalent d'une classe en POO
+      <br>
       Une sorte de patron qu'un objet peut utiliser
-      <br />
-      Complexe mais puissant dans son usage
     </p>
-    <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
-    </pre>
+    <div class="left">
+      <h3>ES5</h3>
+      <pre>
+        <code class="javascript" contenteditable>{{ getSnippetLeft }}</code>
+      </pre>
+    </div>
+    <div class="right fragment">
+      <h3>ES6+</h3>
+      <pre>
+        <code class="javascript" contenteditable>{{ getSnippetRight }}</code>
+      </pre>
+    </div>
   </section>
 </template>
 
 <script>
-const SNIPPET = `
-  /* Constructeur */
-  var Object = function(one, two) {
+const SNIPPET_LEFT = `
+  var Cat = function(name, color, length = 0) {
+    Animal.call(this, name, color);
+    this.length = length;
+  }
 
-    /* Super */
-    Parent.call(this, one, two);
+  Cat.prototype.meow = function() {
+    for (var i = 0; i < this.length; i++) {
+      console.log('Meow!');
+    }
+  }
 
-    /* Attributs */
-    this.one = one;
-    this.two = two;
-  };
+  var myCat = new Cat('Mocha', 'B&W', 5);
 
-  /* Methode */
-  Object.prototype.diff = function() {
-    return (this.one - this.two);
-  };
+  myCat.toString();
 
-  var instance = new Object(6, 4);
+  // Affichage 'Meow!' x5 dans la console
+  myCat.meow();
+  `;
 
-  console.log(instance.diff()); // Affiche '2' dans la console
+const SNIPPET_RIGHT = `
+  class Cat extends Animal {
+    constructor(name, color, length = 0) {
+      super(name, color);
+      this.length = length;
+    }
+
+    meow() {
+      for (let i = 0; i < this.length; i++) {
+        console.log('Meow!');
+      }
+    }
+  }
+
+  const myCat = new Cat('Mocha', 'B&W', 5);
+
+  myCat.toString();
+
+  // Affichage 'Meow!' x5 dans la console
+  myCat.meow();
   `;
 
 export default {
   computed: {
-    getCode() {
-      return SNIPPET;
+    getSnippetLeft() {
+      return SNIPPET_LEFT;
+    },
+    getSnippetRight() {
+      return SNIPPET_RIGHT;
     }
   }
 };

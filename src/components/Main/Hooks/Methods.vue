@@ -3,7 +3,7 @@
     <h2>Methods</h2>
     <p>Réagir aux événements qui se produisent dans le DOM</p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -33,7 +33,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

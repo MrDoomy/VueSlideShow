@@ -2,7 +2,7 @@
   <section id="base">
     <h2>Variables</h2>
     <p>
-      Les types primitifs en <strong>JavaScript</strong> sont :<br />
+      Les types primitifs en <strong>JavaScript</strong> sont :<br>
       <code>
         <span class="orange">boolean</span>
       </code>
@@ -26,13 +26,13 @@
     <div class="left">
       <h3>ES5</h3>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeLeft }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <h3>ES6+</h3>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeRight }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -73,10 +73,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

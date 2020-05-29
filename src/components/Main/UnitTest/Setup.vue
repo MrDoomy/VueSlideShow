@@ -1,16 +1,16 @@
 <template>
-  <section id="jest">
+  <section id="setup">
     <h2>Configuration</h2>
     <p>Récupération des librairies utilitaires :</p>
     <pre>
-      <code class="shell" contenteditable>{{ getCodeTop }}</code>
+      <code class="shell" contenteditable>{{ getSnippetTop }}</code>
     </pre>
     <div class="fragment">
       <p>
         Initialisation du fichier <code>setupTests.js</code> :
       </p>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeBottom }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetBottom }}</code>
       </pre>
     </div>
   </section>
@@ -27,10 +27,10 @@ const SNIPPET_BOTTOM = `
 
 export default {
   computed: {
-    getCodeTop() {
+    getSnippetTop() {
       return SNIPPET_TOP;
     },
-    getCodeBottom() {
+    getSnippetBottom() {
       return SNIPPET_BOTTOM;
     }
   }

@@ -4,9 +4,9 @@
       <h1>
         <span class="white">
           Methods,
-          <br />
+          <br>
           Computed &
-          <br />
+          <br>
           Watch
         </span>
       </h1>

@@ -1,18 +1,18 @@
 <template>
   <section id="react">
-    <img :data-src="getImgReact" alt="React" />
+    <img :data-src="getImgReact" alt="React">
     <h2>React</h2>
     <p>
       Créé en 2013 par <strong>Facebook</strong>
-      <br />
+      <br>
       Utilisation massive du langage JSX
-      <br />
+      <br>
       Idéal pour les projets <em>Front-End</em> volumineux
-      <br />
+      <br>
       Implémentation de l'architecture <strong>Flux</strong>
-      <br />
+      <br>
       Initialement publié sous licence BSD
-      <br />
+      <br>
       <strong>React Native</strong> pour développer sur mobile
     </p>
   </section>

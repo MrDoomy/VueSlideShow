@@ -1,5 +1,5 @@
 <template>
-  <section id="transition" :data-background="getImgBundle" />
+  <section id="transition" :data-background-image="getImgBundle"></section>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <section id="linter">
-    <img :data-src="getImgEsLint" alt="ESLint" />
+    <img :data-src="getImgEsLint" alt="ESLint">
     <h2>ESLint</h2>
     <p>
       <span class="clearfix">
@@ -9,19 +9,19 @@
           <code>code</code>
         </span>
       </span>
-      <br />
+      <br>
       Analyse statique du
       <span class="deep-purple">
         <code>code</code>
       </span>
       source
-      <br />
+      <br>
       Contrôle l'écriture du
       <span class="deep-purple">
         <code>code</code>
       </span>
       <strong> JavaScript</strong>
-      <br />
+      <br>
       Basé sur la convention de
       <span class="deep-purple">
         <code>code</code>

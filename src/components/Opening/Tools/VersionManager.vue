@@ -1,16 +1,16 @@
 <template>
   <section id="version-manager">
-    <img :data-src="getImgGit" alt="Git" />
+    <img :data-src="getImgGit" alt="Git">
     <h2>Git</h2>
     <p>
       L'indispensable gestionnaire de versions
-      <br />
+      <br>
       Meilleure visualisation de l'avancement du projet
-      <br />
+      <br>
       Développement de fontionnalités par branches
-      <br />
+      <br>
       La nécessité de l'historisation des fichiers
-      <br />
+      <br>
       Travail collaboratif centralisé
     </p>
   </section>

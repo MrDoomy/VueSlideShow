@@ -1,19 +1,19 @@
 <template>
   <section id="typescript">
-    <img :data-src="getImgTypeScript" alt="TypeScript" />
+    <img :data-src="getImgTypeScript" alt="TypeScript">
     <h2>TypeScript</h2>
     <p>
       Créé par <strong>Microsoft</strong> en 2012
-      <br />
+      <br>
       Langage de programmation libre et <em>Open Source</em>
-      <br />
+      <br>
       Sur-ensemble <strong>JavaScript</strong> fortement typé
-      <br />
+      <br>
       Support des spécifications <strong>EcmaScript</strong>
-      <br />
+      <br>
       Multiparadigme
       <small>(<em>Client-Side</em> / <em>Server-Side</em>)</small>
-      <br />
+      <br>
       Version 3 depuis Juillet 2018
     </p>
   </section>

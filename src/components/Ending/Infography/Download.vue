@@ -7,9 +7,9 @@
       <span class="green">Vue</span> Vs.
       <span class="orange">Svelte</span>
     </h3>
-    <canvas id="download-chart" style="display: block; height: 720px; width: 1920px;" />
+    <canvas id="download-chart" style="display: block; height: 720px; width: 1920px;"></canvas>
     <div class="fragment">
-      <br />
+      <br>
       <span class="blue-grey">
         <em>
           <small>* 10 Mai 2020</small>

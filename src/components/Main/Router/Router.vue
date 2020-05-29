@@ -1,7 +1,7 @@
 <template>
   <section>
     <section id="router" data-background-color="#42b884">
-      <img :data-src="getImgVueRouter" alt="Vue Router" />
+      <img :data-src="getImgVueRouter" alt="Vue Router">
       <h2>
         <span class="white">Vue Router</span>
       </h2>

@@ -6,9 +6,9 @@
     </h3>
     <p>
       Créé en 1996
-      <br />
+      <br>
       Standartisation du <strong>JavaScript</strong>
-      <br />
+      <br>
       On parle de la norme <strong>ECMA-262</strong>
     </p>
     <ul>

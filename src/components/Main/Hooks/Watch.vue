@@ -3,7 +3,7 @@
     <h2>Watch</h2>
     <p>Effectuer des actions lorsque les propriétés d'une donnée changent</p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
     <div class="fragment">
       <span class="blue-grey">
@@ -45,7 +45,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

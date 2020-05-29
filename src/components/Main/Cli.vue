@@ -3,17 +3,17 @@
     <h1>Command Line Interface</h1>
     <p>
       L'indispensable <code>@vue/cli</code>
-      <br />
+      <br>
       Outil CLI <strong>Vue</strong> <small>(officiel)</small>
-      <br />
+      <br>
       Projet prêt à l'emploi grâce à <code>vue-cli-service</code>
-      <br />
+      <br>
       Support de <strong>TypeScript</strong>, <strong>PostCSS</strong>, <strong>Pug</strong>...
-      <br />
+      <br>
       Autorise la surcharge pour la personnalisation Webpack
     </p>
     <pre>
-      <code class="shell">{{ getCode }}</code>
+      <code class="shell">{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -26,7 +26,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

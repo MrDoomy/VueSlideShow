@@ -13,7 +13,7 @@
     </ol>
     <div class="fragment">
       <pre>
-        <code class="html" contenteditable>{{ getCode }}</code>
+        <code class="html" contenteditable>{{ getSnippet }}</code>
       </pre>
     </div>
   </section>
@@ -47,7 +47,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

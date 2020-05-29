@@ -1,18 +1,18 @@
 <template>
   <section id="javascript">
-    <img :data-src="getImgJavaScript" alt="JavaScript" />
+    <img :data-src="getImgJavaScript" alt="JavaScript">
     <h2>JavaScript</h2>
     <p>
       Créé part <strong>Brendan Eich</strong> en 1995
-      <br />
+      <br>
       Alliance entre <strong>Sun</strong> et <strong>Netscape</strong>
-      <br />
+      <br>
       Langage faiblemment typé
-      <br />
+      <br>
       Programmation fonctionnelle
-      <br />
+      <br>
       Volonté d'un Web plus dynamique
-      <br />
+      <br>
       Version 10 depuis Juin 2019
     </p>
   </section>

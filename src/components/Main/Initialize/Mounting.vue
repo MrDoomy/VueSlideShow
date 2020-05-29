@@ -13,7 +13,7 @@
     </ul>
     <h3>HTML</h3>
     <pre>
-      <code class="javscript" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -33,7 +33,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

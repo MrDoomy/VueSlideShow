@@ -4,12 +4,12 @@
     <p>Factoriser vos comportements grâce aux <strong>Mixins</strong></p>
     <div class="left">
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeLeft }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <pre>
-        <code class="html" contenteditable>{{ getCodeRight }}</code>
+        <code class="html" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -59,10 +59,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

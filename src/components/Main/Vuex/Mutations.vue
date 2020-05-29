@@ -3,11 +3,11 @@
     <h2>Mutations</h2>
     <p>
       L'<em>action</em> trace le changement dans le <strong>store</strong>
-      <br />
+      <br>
       La <code>mutation</code> se charge d'effectuer la modification
     </p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -34,7 +34,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

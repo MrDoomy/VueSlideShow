@@ -5,7 +5,7 @@
       Le <strong>Virtual DOM</strong>, la vraie révolution portée par
       <strong>React</strong> qui rend <strong>jQuery</strong> obsolète
     </p>
-    <img :data-src="getImgVirtualDom" alt="VirtualDOM" />
+    <img :data-src="getImgVirtualDom" alt="VirtualDOM">
   </section>
 </template>
 

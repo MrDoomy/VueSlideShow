@@ -1,6 +1,6 @@
 <template>
   <section id="vue" data-background-color="#42b884">
-    <img :data-src="getImgVue" alt="Vue" />
+    <img :data-src="getImgVue" alt="Vue">
     <h2>
       <span class="white">Vue</span>
     </h2>

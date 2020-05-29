@@ -1,5 +1,5 @@
 <template>
-  <section id="cycle" :data-background="getImgLifeCycle" />
+  <section id="cycle" :data-background-image="getImgLifeCycle"></section>
 </template>
 
 <script>

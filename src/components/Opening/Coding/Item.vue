@@ -3,7 +3,7 @@
     <h2>Objets</h2>
     <p>Voici comment déclarer un objet en <strong>JavaScript</strong> :</p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -25,14 +25,14 @@ const SNIPPET = `
 
   delete album.genre;
 
-  album.genre = ['Electronic', 'Downtempo', 'Experimental'];
+  album.genre = ['Electro', 'Downtempo'];
 
-  console.log(album['genre'][0]); // Affiche 'Electronic' dans la console
+  console.log(album['genre'][0]); // Affiche 'Electro' dans la console
   `;
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

@@ -3,16 +3,16 @@
     <h2>Principe</h2>
     <p>
       <strong>Vuex</strong> est un gestionnaire d'état pour les applications
-      <br />
+      <br>
       Permet de suivre l'état global de l'applicatif
-      <br />
+      <br>
       Développé spécialement pour le framework
       <strong>Vue</strong>
-      <br />
+      <br>
       On dit que le <strong>store</strong> est l'unique source de vérité
-      <br />
+      <br>
       Contient les <code>mutations</code> de l'applicatif
-      <br />
+      <br>
       Le <strong>store</strong> est en lecture seul
     </p>
   </section>

@@ -1,16 +1,16 @@
 <template>
   <section id="environment">
-    <img :data-src="getImgChrome" alt="Chrome" />
-    <img :data-src="getImgEdge" alt="Edge" />
-    <img :data-src="getImgFirefox" alt="Firefox" />
-    <img :data-src="getImgOpera" alt="Opera" />
-    <img :data-src="getImgSafari" alt="Safari" />
+    <img :data-src="getImgChrome" alt="Chrome">
+    <img :data-src="getImgEdge" alt="Edge">
+    <img :data-src="getImgFirefox" alt="Firefox">
+    <img :data-src="getImgOpera" alt="Opera">
+    <img :data-src="getImgSafari" alt="Safari">
     <h2>Environnement</h2>
     <p>
       Préférez le mode <code>strict</code> lors de l'exécution pour la remontée d'erreurs
     </p>
     <pre>
-      <code class="javascript">{{ getCode }}</code>
+      <code class="javascript">{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -47,7 +47,7 @@ export default {
     getImgSafari() {
       return imgSafari;
     },
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

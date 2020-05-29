@@ -1,7 +1,7 @@
 <template>
   <section id="without">
     <h2>Sans Vuex</h2>
-    <img :data-src="getImgWithoutFlux" alt="Without Vuex" />
+    <img :data-src="getImgWithoutFlux" alt="Without Vuex">
   </section>
 </template>
 

@@ -4,7 +4,7 @@
     <p>
       <em>
         "I love writing software in NodeJS.
-        <br />
+        <br>
         I’ve had a thirty year career in software, and NodeJS is the first time I really started having fun."
       </em>
     </p>

@@ -1,8 +1,8 @@
 <template>
   <section>
     <section id="unit-test" data-background-color="#2a2c2e">
-      <img :data-src="getImgJest" alt="Jest" />
-      <img :data-src="getImgTestingLib" alt="Testing Library" />
+      <img :data-src="getImgJest" alt="Jest">
+      <img :data-src="getImgTestingLib" alt="Testing Library">
       <h2>
         <span class="white">Jest & Testing Library</span>
       </h2>

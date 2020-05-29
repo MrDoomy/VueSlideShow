@@ -15,9 +15,9 @@
       <div class="beautify-table-body">
         <table>
           <tbody>
-            <tr :class="['body', { 'alt': idx % 2 !== 0 }]" v-for="({ label, explanation }, idx) in getRows" :key="idx">
+            <tr class="body" v-for="({ label, explanation }, idx) in getRows" :key="idx">
               <td class="column1">
-                <span v-html="label" />
+                <span v-html="label"></span>
               </td>
               <td class="column2 fill">{{ explanation }}</td>
             </tr>

@@ -3,11 +3,11 @@
     <h2>Main.JS</h2>
     <p>
       Au début de l'application, dans l'instance principale...
-      <br />
+      <br>
       On appelle <strong>Vue</strong> afin de rendre le composant dans le DOM !
     </p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -30,7 +30,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

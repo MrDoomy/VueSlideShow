@@ -3,7 +3,7 @@
     <h2>Interprétation</h2>
     <p>
       Quel est le résultat de cette fonction <strong>JavaScript</strong> :
-      <br />
+      <br>
       <span class="orange">
         <code>1</code>
       </span>
@@ -24,13 +24,13 @@
     <div class="left">
       <h3>Pré-Compilation</h3>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeLeft }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <h3>Post-Compilation</h3>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeRight }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -69,10 +69,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

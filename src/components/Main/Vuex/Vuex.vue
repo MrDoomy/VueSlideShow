@@ -1,7 +1,7 @@
 <template>
   <section>
     <section id="vuex" data-background-color="#42b884">
-      <img :data-src="getImgVuex" alt="Vuex" />
+      <img :data-src="getImgVuex" alt="Vuex">
       <h2>
         <span class="white">Vuex</span>
       </h2>

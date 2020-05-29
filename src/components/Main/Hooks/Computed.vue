@@ -3,7 +3,7 @@
     <h2>Computed</h2>
     <p>Définir de nouvelles données à partir de données déjà existantes</p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -34,7 +34,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

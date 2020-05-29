@@ -1,9 +1,9 @@
 <template>
   <section id="editors">
-    <img :data-src="getImgAtom" alt="Atom" />
-    <img :data-src="getImgSublimeText" alt="Sublime Text" />
-    <img :data-src="getImgVsCode" alt="Visual Studio Code" />
-    <img :data-src="getImgWebStorm" alt="WebStorm" />
+    <img :data-src="getImgAtom" alt="Atom">
+    <img :data-src="getImgSublimeText" alt="Sublime Text">
+    <img :data-src="getImgVsCode" alt="Visual Studio Code">
+    <img :data-src="getImgWebStorm" alt="WebStorm">
     <h2>Éditeurs</h2>
     <div class="beautify-table custom">
       <div class="beautify-table-head">
@@ -25,10 +25,10 @@
                 <strong>{{ editor }}</strong>
               </td>
               <td class="column2">
-                <div v-html="pros" />
+                <div v-html="pros"></div>
               </td>
               <td class="column3">
-                <div v-html="cons" />
+                <div v-html="cons"></div>
               </td>
             </tr>
           </tbody>

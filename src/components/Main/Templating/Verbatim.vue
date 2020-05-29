@@ -3,13 +3,13 @@
     <h1>Directives</h1>
     <p>
       Concept provenant d'<strong>AngularJS</strong>
-      <br />
+      <br>
       Généralement des composants réutilisables
-      <br />
+      <br>
       Méthodes qui régissent un comportement
-      <br />
+      <br>
       Très proche des composants Web
-      <br />
+      <br>
       Injectable dans le template HTML
     </p>
   </section>

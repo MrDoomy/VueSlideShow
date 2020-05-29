@@ -3,11 +3,11 @@
     <h2>Typage</h2>
     <p>
       Définir le type des propriétés
-      <br />
+      <br>
       Imposer des valeurs par défaut
     </p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -40,7 +40,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

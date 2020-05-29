@@ -3,19 +3,19 @@
     <h2>Imbrication</h2>
     <p>
       <code>&lt;slot&gt;&lt;/slot&gt;</code> permet d'accéder aux élements imbriqués
-      <br />
+      <br>
       Il est possible de nommer les <code>&lt;slot&gt;&lt;/slot&gt;</code>
     </p>
     <div class="left">
       <h3>Parent</h3>
       <pre>
-        <code class="html" contenteditable>{{ getCodeLeft }}</code>
+        <code class="html" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <h3>Enfant</h3>
       <pre>
-        <code class="html" contenteditable>{{ getCodeRight }}</code>
+        <code class="html" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -58,10 +58,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

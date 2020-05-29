@@ -1,7 +1,7 @@
 <template>
   <section id="with">
     <h2>Avec Vuex</h2>
-    <img :data-src="getImgWithFlux" alt="With Vuex" />
+    <img :data-src="getImgWithFlux" alt="With Vuex">
   </section>
 </template>
 

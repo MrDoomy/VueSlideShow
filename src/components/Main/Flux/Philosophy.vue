@@ -3,13 +3,13 @@
     <h2>Philosophie</h2>
     <p>
       Gestion du <code>state</code> des composants simplifiée
-      <br />
+      <br>
       Le <strong>store</strong> est accessible à tout moment
-      <br />
+      <br>
       Les composants enfants n'héritent pas du <code>state</code> des parents
-      <br />
+      <br>
       Aucune donnée en doublon <small>(un seul point de vérité)</small>
-      <br />
+      <br>
       Meilleure conception de votre application
     </p>
   </section>

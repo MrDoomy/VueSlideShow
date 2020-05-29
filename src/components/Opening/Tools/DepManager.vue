@@ -1,16 +1,16 @@
 <template>
   <section id="dep-manager">
-    <img :data-src="getImgYarn" alt="Yarn" />
+    <img :data-src="getImgYarn" alt="Yarn">
     <h2>Yarn</h2>
     <p>
       Alternative à <strong>NPM</strong>
-      <br />
+      <br>
       Gérer vos dépendances
-      <br />
+      <br>
       Sécuriser vos versions
-      <br />
+      <br>
       Récupération des librairies <strong>JavaScript</strong>
-      <br />
+      <br>
       Amélioration des performances du projet
     </p>
   </section>

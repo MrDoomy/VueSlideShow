@@ -15,12 +15,12 @@
       <div class="beautify-table-body">
         <table>
           <tbody>
-            <tr :class="['body', { 'alt': idx % 2 !== 0 }]" v-for="({ label, explanation }, idx) in getRows" :key="idx">
+            <tr class="body" v-for="({ label, explanation }, idx) in getRows" :key="idx">
               <td class="column1">
-                <span v-html="label" />
+                <span v-html="label"></span>
               </td>
               <td class="column2 fill">
-                <span v-html="explanation" />
+                <span v-html="explanation"></span>
               </td>
             </tr>
           </tbody>
@@ -28,7 +28,7 @@
       </div>
     </div>
     <div class="fragment">
-      <br />
+      <br>
       <span class="blue-grey">
         <em>
           Il est aussi possible de définir ses propres directives dans l'instance de <strong>Vue</strong>
@@ -48,18 +48,18 @@ const HEADERS = [
 
 const ROWS = [
   {
-    label: '<code>v-bind</code><br /><code>:</code>',
+    label: '<code>v-bind</code><br><code>:</code>',
     explanation: `
       Permet de 'binder' une donnée dynamique et / ou d'évaluer du code :
-      <br />
+      <br>
       <code>v-bind:title="myTitle + ' !'"</code>
     `
   },
   {
-    label: '<code>v-on</code><br /><code>@</code>',
+    label: '<code>v-on</code><br><code>@</code>',
     explanation: `
       Permet de 'binder' une donnée dynamique et / ou d'évaluer du code :
-      <br />
+      <br>
       <code>v-bind:title="myTitle + ' !'"</code>
     `
   }

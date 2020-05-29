@@ -1,15 +1,15 @@
 <template>
   <section id="testing">
-    <img :data-src="getImgJest" alt="Jest" />
-    <img :data-src="getImgTestingLib" alt="Testing Library" />
+    <img :data-src="getImgJest" alt="Jest">
+    <img :data-src="getImgTestingLib" alt="Testing Library">
     <h2>Tests Unitaires</h2>
     <p>
       La base de la programmation
-      <br />
+      <br>
       Technique liée à l'approche <strong>Agile</strong>
-      <br />
+      <br>
       Tester les méthodes, les composants, les services...
-      <br />
+      <br>
       Gagner du temps dans vos développements
     </p>
     <p>

@@ -6,7 +6,7 @@
       <code>index.html</code> :
     </p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -28,7 +28,7 @@ const SNIPPET = `
       <script>
         Vue.component('hello-world', {
           props: ['userName'],
-          template: '<span style="color: #42b884;">Hi {{ userName }} !</span>'
+          template: '<span style="color: #42b884; text-decoration: underline;">Hi {{ userName }} !</span>'
         });
 
         new Vue({
@@ -41,7 +41,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

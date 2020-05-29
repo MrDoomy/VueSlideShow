@@ -1,7 +1,7 @@
 <template>
   <section id="lang-learn">
     <h2>Quels langages les développeurs prévoient-ils d'apprendre ?</h2>
-    <canvas id="lang-learn-chart" style="display: block; height: 720px; width: 1920px;" />
+    <canvas id="lang-learn-chart" style="display: block; height: 720px; width: 1920px;"></canvas>
   </section>
 </template>
 

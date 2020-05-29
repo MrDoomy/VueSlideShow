@@ -1,6 +1,6 @@
 <template>
   <section id="third-demo">
-    <div v-html="getDemo" />
+    <div v-html="getDemo"></div>
   </section>
 </template>
 

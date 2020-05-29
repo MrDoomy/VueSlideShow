@@ -4,11 +4,11 @@
     <p>
       Les <code>getters</code> permettent de récupérer l'état d'une donnée dans le
       <strong>store</strong>
-      <br />
+      <br>
       Il est possible de passer des paramètres aux <code>getters</code>
     </p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -27,7 +27,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

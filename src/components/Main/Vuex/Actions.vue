@@ -4,14 +4,14 @@
     <p>
       Mise à jour du <strong>store</strong> uniquement via les
       <code>mutations</code> appelés par des <em>actions</em>
-      <br />
+      <br>
       La comparaison de l'état permet d'identifier le changement
-      <br />
+      <br>
       Les <em>constantes</em> sont les références utilisées par les
       <code>mutations</code>
     </p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -38,7 +38,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

@@ -4,11 +4,11 @@
     <h3>Damien Chazoule</h3>
     <p>
       <em>FullStack</em> JS Developer
-      <br />
+      <br>
       <strong>VueJS</strong> Lover <small>(<strong>React</strong> Too)</small>
     </p>
-    <img :data-src="getGitHub" alt="GitHub" />
-    <img :data-src="getGitLab" alt="GitLab" />
+    <img :data-src="getGitHub" alt="GitHub">
+    <img :data-src="getGitLab" alt="GitLab">
     <p>
       <span class="black">@Mr</span>
       <span class="deep-orange">Doomy</span>

@@ -5,7 +5,7 @@
       Connaissances en <span class="light-green">2017</span> Vs.
       <span class="light-blue">2018</span>
     </h3>
-    <canvas id="lang-known-chart" style="display: block; height: 720px; width: 1920px;" />
+    <canvas id="lang-known-chart" style="display: block; height: 720px; width: 1920px;"></canvas>
   </section>
 </template>
 

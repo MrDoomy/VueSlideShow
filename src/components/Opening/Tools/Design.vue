@@ -1,14 +1,14 @@
 <template>
   <section id="design">
-    <img class="clearfix" :data-src="getImgLess" alt="Less" />
-    <img :data-src="getImgSass" alt="Sass" />
-    <img :data-src="getImgStylus" alt="Stylus" />
+    <img class="clearfix" :data-src="getImgLess" alt="Less">
+    <img :data-src="getImgSass" alt="Sass">
+    <img :data-src="getImgStylus" alt="Stylus">
     <h2>CSS</h2>
     <p>
       Des feuilles qui ont du style
-      <br />
+      <br>
       Du <em>design</em> pour vôtre application
-      <br />
+      <br>
       Choisir entre le
       <span class="less">
         <strong>Less</strong>

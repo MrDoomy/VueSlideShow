@@ -5,7 +5,7 @@ import Preview from './Preview';
 import Initialize from './Initialize';
 import DataProps from './DataProps';
 import Nested from './Nested';
-import Design from './Design';
+import DesignPattern from './DesignPattern';
 import LifeCycle from './LifeCycle';
 import Templating from './Templating';
 import StyleSheet from './StyleSheet';
@@ -25,7 +25,7 @@ export {
   Initialize,
   DataProps,
   Nested,
-  Design,
+  DesignPattern,
   LifeCycle,
   Templating,
   StyleSheet,

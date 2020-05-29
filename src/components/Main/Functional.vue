@@ -3,19 +3,19 @@
     <h1>Functional Components</h1>
     <p>
       Les composants n'incluant que la fonction <code>render()</code> peuvent s'écrirent autrement
-      <br />
+      <br>
       Contient quelques <code>data</code> et / ou <code>props</code>
     </p>
     <div class="left">
       <h3>ES6+</h3>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeLeft }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <h3>JSX</h3>
       <pre>
-        <code class="javascript" contenteditable>{{ getCodeRight }}</code>
+        <code class="javascript" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -53,10 +53,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

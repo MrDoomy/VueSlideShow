@@ -1,7 +1,7 @@
 <template>
   <section id="misc">
     <h2>Quel style de musique écouter lorsqu'on code ?</h2>
-    <canvas id="misc-chart" style="display: block; height: 720px; width: 1920px;" />
+    <canvas id="misc-chart" style="display: block; height: 720px; width: 1920px;"></canvas>
   </section>
 </template>
 

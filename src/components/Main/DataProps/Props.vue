@@ -3,24 +3,24 @@
     <h2>Props</h2>
     <p>
       Les propriétés sont immutables
-      <br />
+      <br>
       N'importe quelle valeur
       <small>(listes, objets, fonctions, booléens... )</small>
-      <br />
+      <br>
       Données transmises d'un composant parent à un enfant
-      <br />
+      <br>
       Passer des propriétés comme des attributs d'un élement HTML
     </p>
     <div class="left">
       <h3>Enfant</h3>
       <pre>
-        <code class="html" contenteditable>{{ getCodeLeft }}</code>
+        <code class="html" contenteditable>{{ getSnippetLeft }}</code>
       </pre>
     </div>
-    <div class="fragment right">
+    <div class="right fragment">
       <h3>Parent</h3>
       <pre>
-        <code class="html" contenteditable>{{ getCodeRight }}</code>
+        <code class="html" contenteditable>{{ getSnippetRight }}</code>
       </pre>
     </div>
   </section>
@@ -70,10 +70,10 @@ const SNIPPET_RIGHT = `
 
 export default {
   computed: {
-    getCodeLeft() {
+    getSnippetLeft() {
       return SNIPPET_LEFT;
     },
-    getCodeRight() {
+    getSnippetRight() {
       return SNIPPET_RIGHT;
     }
   }

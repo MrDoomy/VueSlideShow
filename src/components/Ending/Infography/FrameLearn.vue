@@ -1,7 +1,7 @@
 <template>
   <section id="frame-learn">
     <h2>Quels frameworks les développeurs prévoient-ils d'apprendre ?</h2>
-    <canvas id="frame-learn-chart" style="display: block; height: 720px; width: 1920px;" />
+    <canvas id="frame-learn-chart" style="display: block; height: 720px; width: 1920px;"></canvas>
   </section>
 </template>
 

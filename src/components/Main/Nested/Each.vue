@@ -1,14 +1,13 @@
 <template>
-  <section id="slot">
+  <section id="each">
     <h2>For Each</h2>
-    <p>Construction dynamique de noeud DOM</p>
+    <p>Construction dynamique de nœud DOM</p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
     <div class="fragment">
       <span class="blue-grey">
-        <em>Ne pas oublier d'identifier chaque élément lors d'un rendu dynamique grâce à</em>
-        <strong>key</strong>
+        <em>Ne pas oublier d'identifier chaque élément lors d'un rendu dynamique grâce à <strong>key</strong></em>
       </span>
     </div>
   </section>
@@ -39,7 +38,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

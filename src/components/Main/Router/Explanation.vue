@@ -3,13 +3,13 @@
     <h2>Explication</h2>
     <p>
       Affichage des composants en fonction de l'URL
-      <br />
+      <br>
       Inspirée par le Router du framework Ember
-      <br />
+      <br>
       Librairie officielle maintenue par l'équipe de <strong>Vue</strong>
-      <br />
+      <br>
       Facilement implémentable avec Vuex
-      <br />
+      <br>
       Importance de la navigation par URL
     </p>
   </section>

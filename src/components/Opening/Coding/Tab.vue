@@ -3,7 +3,7 @@
     <h2>Tableaux</h2>
     <p>Voici comment déclarer un tableau en <strong>JavaScript</strong> :</p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -25,7 +25,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

@@ -6,7 +6,7 @@
       <code>HelloWorld.vue</code> :
     </p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
     <div class="fragment">
       <span class="blue-grey">
@@ -19,7 +19,7 @@
 <script>
 const SNIPPET = `
   <template>
-    <span class="green">Hi {{ userName }} !</span>
+    <span class="underline-green">Hi {{ userName }} !</span>
   </template>
 
   <script>
@@ -32,13 +32,14 @@ const SNIPPET = `
   <style scoped>
   .green {
     color: #42b884;
+    text-decoration: underline;
   }
   </style>
   `;
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

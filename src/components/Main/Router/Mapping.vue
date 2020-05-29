@@ -3,11 +3,11 @@
     <h2>Mapping</h2>
     <p>
       Définition des chemins pour chaques composants de l'application
-      <br />
+      <br>
       <strong>Vue</strong> gère nativement le découpage dynamique
     </p>
     <pre>
-      <code class="javascript" contenteditable>{{ getCode }}</code>
+      <code class="javascript" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -38,7 +38,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }

@@ -18,7 +18,7 @@
       <Initialize hidden />
       <DataProps />
       <Nested hidden />
-      <Design />
+      <DesignPattern />
       <LifeCycle />
       <Templating />
       <StyleSheet />
@@ -68,7 +68,7 @@ import {
   Initialize,
   DataProps,
   Nested,
-  Design,
+  DesignPattern,
   LifeCycle,
   Templating,
   StyleSheet,
@@ -110,7 +110,7 @@ export default {
     Initialize,
     DataProps,
     Nested,
-    Design,
+    DesignPattern,
     LifeCycle,
     Templating,
     StyleSheet,
@@ -171,6 +171,13 @@ export default {
       transition: 'slide',
       fragmentInURL: false,
       plugins: [HL, MD]
+    }).then(() => {
+      try {
+        const slideNumber = document.getElementsByClassName('slide-number')[0];
+        slideNumber.addEventListener('click', () => Reveal.toggleOverview());
+      } catch (e) {
+        console.log(e);
+      }
     });
   }
 };

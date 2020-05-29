@@ -3,7 +3,7 @@
     <h2>Cas d'Usage</h2>
     <p>Appel d'une API lorsque le composant est monté dans le DOM</p>
     <pre>
-      <code class="html" contenteditable>{{ getCode }}</code>
+      <code class="html" contenteditable>{{ getSnippet }}</code>
     </pre>
   </section>
 </template>
@@ -32,7 +32,7 @@ const SNIPPET = `
 
 export default {
   computed: {
-    getCode() {
+    getSnippet() {
       return SNIPPET;
     }
   }
